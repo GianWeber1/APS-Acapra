@@ -1,0 +1,139 @@
+:root{
+    --corNav: #a29aed;
+    --corPrincipal: #545384;
+    --corSombra: #13133c5e;
+}
+
+*{
+
+    margin: 0;
+    padding: 0;
+
+    font-family: monospace;
+    color: white;
+
+}
+
+html, body{
+
+    height: 100%;
+    width: 100%;
+
+    overflow-y: auto; 
+
+}
+
+header{
+    z-index: 2;
+    height: 10%;
+    position: relative;
+}
+
+main{
+    z-index: 1;
+    height: 90%;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+}
+
+nav{
+
+    background-color: var(--corNav);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    height: 100%;
+    width: 100%;
+
+    box-shadow: 1px 1px 10px 5px var(--corSombra);
+
+    font-size: 1.3em;
+}
+
+.olNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    list-style: none;
+    font-weight: bold;
+
+    width: 70%;
+    height: 100%;
+}
+
+.imgLogo{
+    width: 15%;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgLogo img{
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.divImgRedes{
+    width: 15%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    font-size: 1.4em;
+    
+}
+
+.sectionPrincipal{
+    background-image: url('imgs/background.jpg');
+    background-size: 100% 100%; /* Ajusta a imagem para preencher 100% de largura e 100% de altura */
+    background-repeat: no-repeat;  /* Garante que a imagem não se repita */
+    background-position: center center;  /* Centraliza a imagem */
+    background-attachment: fixed;
+
+    height: 100%;
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.divCard{
+    background-color: var(--corNav);
+    box-shadow: 1px 1px 10px 5px var(--corSombra);
+
+    border-radius: 10px;
+
+    display: flex;
+
+    width: 35%;
+    height: 80%;
+    
+}
+
+.divNoticias{
+
+}
+
+.divProximosEventos{
+
+
+}
