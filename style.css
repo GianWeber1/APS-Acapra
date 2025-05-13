@@ -126,14 +126,30 @@ nav{
 
     width: 35%;
     height: 80%;
-    
 }
 
 .divNoticias{
-
+    background-color: white;
+    opacity: 85%;
+    width: 50%;
 }
 
 .divProximosEventos{
+    background-color: white;
+    opacity: 85%;
+    width: 25%;
+}
 
+.tituloDiv, .titulo{
+    background-color: #a29aed;
 
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-top: 15px;
+
+    text-align: center;
+    font-size: 25px;
+
+    width: 100%;
+    height: 10%;
 }
